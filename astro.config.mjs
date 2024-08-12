@@ -9,7 +9,7 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://verse-astro.vercel.app/",
+  site: "https://yizhenme.github.io//",
   trailingSlash: "always",
   prefetch: {
     prefetchAll: true,
@@ -20,14 +20,14 @@ export default defineConfig({
     contentCollectionCache: true,
   },
 
-  image: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "*.unsplash.com",
-      },
-    ],
-  },
+  // image: {
+  //   remotePatterns: [
+  //     {
+  //       protocol: "https",
+  //       hostname: "*.picsum.photos",
+  //     },
+  //   ],
+  // },
 
   markdown: {
     remarkPlugins: [remarkModifiedTime],
