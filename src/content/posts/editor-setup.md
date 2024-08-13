@@ -10,7 +10,7 @@ tags:
   - Jamstack
 pubDate: 2023-09-04
 cover: "./my-image.jpg"
-coverAlt: AstroVerse-Editor Setup
+coverAlt: Yizhen Space-Editor Setup
 author: VV
 ---
 

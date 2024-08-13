@@ -10,7 +10,7 @@ tags:
   - Markdown
 pubDate: 2023-09-01
 cover: "./my-image.jpg"
-coverAlt: AstroVerse-Lorem ipsum dolor sit amet
+coverAlt: Yizhen Space-Lorem ipsum dolor sit amet
 author: VV
 ---
 

@@ -1,5 +1,21 @@
 {
   "files.associations": {
     "*.mdx": "markdown"
-  }
+  },
+  "cSpell.words": [
+    "astro",
+    "astrojs",
+    "Consolas",
+    "iconify",
+    "Menlo",
+    "pagefind",
+    "partytown",
+    "preline",
+    "Roboto",
+    "Segoe",
+    "tabler",
+    "tailwindcss",
+    "tsconfigs",
+    "Yizhen"
+  ]
 }

@@ -10,7 +10,7 @@ tags:
   - Morbi
 pubDate: 2023-09-05
 cover: "./my-image.jpg"
-coverAlt: AstroVerse-Third post
+coverAlt: Yizhen Space-Third post
 author: VV
 ---
 

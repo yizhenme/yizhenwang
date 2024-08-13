@@ -2,19 +2,19 @@
 // You can import this data from anywhere in your site by using the `import` keyword.
 
 // Base Page Metadata, src/layouts/BaseLayout.astro
-export const BRAND_NAME = "AstroVerse";
-export const SITE_TITLE = "AstroVerse";
-export const SITE_DESCRIPTION = "An Astro Theme for Visual Storytelling";
+export const BRAND_NAME = "Yizhen";
+export const SITE_TITLE = "Yizhen Space";
+export const SITE_DESCRIPTION = "An Site of Yizhen";
 
 // Tags Page Metadata, src/pages/tags/index.astro
-export const Tags_TITLE = "AstroVerse - All Tags";
+export const Tags_TITLE = `${SITE_TITLE} - All Tags`;
 export const Tags_DESCRIPTION =
-  "AstroVerse - All tags and the count of articles related to each tag";
+  `${SITE_TITLE} - All tags and the count of articles related to each tag`;
 
 // Tags Page Metadata, src/pages/tags/[tag]/[page].astro
 export function getTagMetadata(tag: string) {
   return {
-    title: `All articles on '${tag}' tag in AstroVerse`,
+    title: `All articles on '${tag}' tag in ${SITE_TITLE}`,
     description: `Explore articles about ${tag} for different perspectives and in-depth analysis.`,
   };
 }
@@ -22,8 +22,8 @@ export function getTagMetadata(tag: string) {
 // Category Page Metadata, src/pages/category/[category]/[page].astro
 export function getCategoryMetadata(category: string) {
   return {
-    title: `All articles in '${category}' category in AstroVerse`,
-    description: `Browse all articles under the ${category} category in AstroVerse`,
+    title: `All articles in '${category}' category in ${SITE_TITLE}`,
+    description: `Browse all articles under the ${category} category in ${SITE_TITLE}`,
   };
 }
 
@@ -44,13 +44,13 @@ export const FooterLinks = [
 // Social Links, src/components/Footer.astro
 export const SocialLinks = [
   { href: "/rss.xml", icon: "tabler:rss", label: "RSS" },
+  // {
+  //   href: "https://twitter.com/astrodotbuild",
+  //   icon: "tabler:brand-twitter",
+  //   label: "Twitter",
+  // },
   {
-    href: "https://twitter.com/astrodotbuild",
-    icon: "tabler:brand-twitter",
-    label: "Twitter",
-  },
-  {
-    href: "https://github.com/isooosi",
+    href: "https://github.com/yizhenme",
     icon: "tabler:brand-github",
     label: "GitHub",
   },

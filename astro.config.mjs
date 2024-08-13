@@ -9,25 +9,16 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://yizhenme.github.io//",
+  site: "https://www.yizhenwang.com/",
   trailingSlash: "always",
   prefetch: {
     prefetchAll: true,
-    defaultStrategy: 'viewport',
+    defaultStrategy: "viewport",
   },
 
   experimental: {
     contentCollectionCache: true,
   },
-
-  // image: {
-  //   remotePatterns: [
-  //     {
-  //       protocol: "https",
-  //       hostname: "*.picsum.photos",
-  //     },
-  //   ],
-  // },
 
   markdown: {
     remarkPlugins: [remarkModifiedTime],
@@ -51,6 +42,5 @@ export default defineConfig({
         tabler: ["*"],
       },
     }),
-    
   ],
 });

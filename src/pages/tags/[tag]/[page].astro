@@ -1,9 +1,9 @@
 ---
 import { getCollection } from "astro:content";
-import BaseLayout from "@layouts/BaseLayout.astro";
-import PostCard from "@components/CommonCard.astro";
-import Pagination from "@components/Pagination.astro";
-import { getTagMetadata } from "@consts";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import PostCard from "@/components/CommonCard.astro";
+import Pagination from "@/components/Pagination.astro";
+import { getTagMetadata } from "@/constants";
 
 export async function getStaticPaths() {
   const allPosts = await getCollection("posts");

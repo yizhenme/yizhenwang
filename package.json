@@ -1,7 +1,8 @@
 {
-  "name": "astroverse",
+  "name": "Yizhen Site",
+  "private": true,
   "type": "module",
-  "version": "4.8.0",
+  "version": "0.1.0",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",

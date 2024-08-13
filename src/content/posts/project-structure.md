@@ -10,7 +10,7 @@ tags:
   - File
 pubDate: 2023-09-01
 cover: "./my-image.jpg"
-coverAlt: AstroVerse-Aliases
+coverAlt: Yizhen Space-Aliases
 author: VV
 ---
 

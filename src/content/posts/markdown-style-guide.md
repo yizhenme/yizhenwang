@@ -10,7 +10,7 @@ tags:
   - Jamstack
 pubDate: 2023-09-06
 cover: "./my-image.jpg"
-coverAlt: AstroVerse-Markdown Style Guide
+coverAlt: Yizhen Space-Markdown Style Guide
 author: VV
 ---
 

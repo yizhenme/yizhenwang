@@ -10,7 +10,7 @@ tags:
   - Jamstack
 pubDate: 2023-09-06
 cover: "./my-image.jpg"
-coverAlt: AstroVerse-Astro Islands
+coverAlt: Yizhen Space-Astro Islands
 author: VV
 ---
 

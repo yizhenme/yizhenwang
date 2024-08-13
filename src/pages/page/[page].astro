@@ -1,10 +1,10 @@
 ---
 import { getCollection } from "astro:content";
-import BaseLayout from "@layouts/BaseLayout.astro";
-import HeroCard from "@components/HeroCard.astro";
-import PostCard from "@components/CommonCard.astro";
-import Pagination from "@components/Pagination.astro";
-import { SITE_TITLE, SITE_DESCRIPTION } from "@consts";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import HeroCard from "@/components/HeroCard.astro";
+import PostCard from "@/components/CommonCard.astro";
+import Pagination from "@/components/Pagination.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "@/constants";
 
 export async function getStaticPaths() {
   const allPosts = await getCollection("posts");
