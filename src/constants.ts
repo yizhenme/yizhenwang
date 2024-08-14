@@ -8,8 +8,7 @@ export const SITE_DESCRIPTION = "An Site of Yizhen";
 
 // Tags Page Metadata, src/pages/tags/index.astro
 export const Tags_TITLE = `${SITE_TITLE} - All Tags`;
-export const Tags_DESCRIPTION =
-  `${SITE_TITLE} - All tags and the count of articles related to each tag`;
+export const Tags_DESCRIPTION = `${SITE_TITLE} - All tags and the count of articles related to each tag`;
 
 // Tags Page Metadata, src/pages/tags/[tag]/[page].astro
 export function getTagMetadata(tag: string) {
